@@ -1,0 +1,22 @@
+@import "Colors";
+nav {
+	width: 100%;
+	position: sticky;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+	background-color: $first;
+   top: 0;
+   z-index: 10;
+   >h1{
+      text-transform: uppercase;
+   }
+   >main >a{
+      margin-left: 30px;
+      color: $dark;
+      &:hover{
+         color: $third;
+      }
+   }
+}

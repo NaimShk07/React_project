@@ -1,0 +1,27 @@
+@import "Colors";
+
+.footer {
+	// height: 80px;
+	background-color: black;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 30px;
+	h2{
+		margin-bottom: 0px;
+	}
+	.foot-icons {
+	
+		> i {
+         background-color: $first;
+         color: black;
+			// height: 20px;
+			// width: 20px;
+         border-radius: 50%;
+         font-size: 15px;
+         padding: 5px;
+         margin-left: 5px;
+		}
+	}
+}

@@ -1,0 +1,51 @@
+@import "Colors";
+
+.contact {
+	height: calc(100vh - 77px);
+	width: 100%;
+	background-color: $second;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	> div {
+		width: 70%;
+		height: 70%;
+		background-color: $first;
+		border-radius: 0 200px 200px 0;
+		padding: 30px;
+		> form {
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+			gap: 15px;
+			> div {
+				width: 60%;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				> input {
+					font-size: 15px;
+					padding: 10px;
+					border-radius: 5px;
+					border: 2px solid rgb(208, 208, 208);
+					width: 75%;
+					outline: none;
+				}
+			}
+			> button {
+				background-color: $third;
+            width: 20%;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            color: $first;
+            margin-top: 20px;
+            &:hover{
+               opacity: .8;
+            }
+			}
+		}
+	}
+}
